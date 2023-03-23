@@ -26,28 +26,6 @@
             <button class="delete">Delete</button>
           </td>
         </tr>
-        <tr>
-          <td>Làm bài tập</td>
-          <td>12/23/2023</td>
-          <td>
-            <button class="done">Done</button>
-          </td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
-        <tr>
-          <td>Làm bài tập</td>
-          <td>12/24/2023</td>
-          <td>
-            <button class="done">Done</button>
-          </td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
       </table>
     </div>
   </div>
@@ -58,31 +36,28 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container {
-  border-radius: 30px;
-  background-color: rgb(227, 255, 255);
-}
 input[type="text"],
 [type="date"] {
-  margin: 5px 0 22px 0;
+  margin: 0px 10px 0px 10px;
   display: inline-block;
   resize: vertical;
-  padding: 15px;
+  padding: 10px;
   border-radius: 15px;
-  border: 0;
+  border: 0.5px solid rgb(193, 193, 193);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 label {
   margin: 0 5rem 0 5rem;
 }
 button {
+  width: 70px;
   padding: 5px;
-  width: 100%;
   margin-left: 10px;
-  color: white;
+  color: rgb(0, 0, 0);
   border: none;
   cursor: pointer;
   opacity: 0.9;
+  border: 0.5px solid rgb(193, 193, 193);
   border-radius: 10px;
   font-family: Pacifico;
 }
@@ -90,11 +65,11 @@ button {
   background-color: rgb(0, 100, 213);
 }
 .delete {
-  width: 30%;
+  width: 70px;
   background-color: rgb(238, 52, 52);
 }
 .edit {
-  width: 30%;
+  width: 70px;
   background-color: yellow;
 }
 .done {
