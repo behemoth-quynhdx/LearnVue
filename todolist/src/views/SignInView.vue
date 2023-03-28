@@ -45,10 +45,6 @@ form {
   padding: 0.15rem 3rem 1rem 3rem;
   background-color: rgb(227, 255, 255);
 }
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-body {
-  font-family: "Noto Sans JP", sans-serif;
-}
 h1,
 label {
   color: DodgerBlue;
