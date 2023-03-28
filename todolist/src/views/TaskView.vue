@@ -24,7 +24,7 @@
           <span :class="{ checked: todo.checked }"> {{ todo.task }}</span>
         </div>
         <div class="ri">
-          <button @click="onEdit(item)" class="edit">
+          <button @click="onEdit()" class="edit">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -129,9 +129,9 @@ export default {
         }
       }
     },
-    onEdit: function (newtask) {
-      this.newTask = newtask;
-    },
+    // onEdit: function (newtask) {
+    //   this.newTask = newtask;
+    // },
   },
 };
 </script>
